@@ -3,8 +3,10 @@ import pandas as pd
 import time
 import random
 
+#Link de acesso da API já com o filtro de cartas de comandantes do MTG:Arena
 api_url = "https://api.scryfall.com/cards/search?q=game%3Aarena+t%3Alegendary+is%3Acommander"
 
+#Cria o dicionário com os nomes dos jogadores
 playersQuantity = int(input("Digite o número de jogadores: "))
 
 playersNames = []
